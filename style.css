@@ -1,0 +1,242 @@
+/* Styles de base */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* En-tête */
+header {
+    background: #007BFF;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section principale */
+main .intro {
+    text-align: center;
+    padding: 30px;
+    background-color: #f0f8ff;
+}
+
+ .img {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    height: 370px;
+}
+div .espace{
+    width: 600px;
+}
+
+
+main .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+main .card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow: hidden;
+}
+
+main .card img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    padding-top: 10px;
+}
+
+main .card h3 {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #007BFF;
+}
+
+main .card p {
+    padding: 0 15px;
+    font-size: 16px;
+    color: #555;
+}
+
+main .btn {
+    display: inline-block;
+    margin: 15px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+main .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+}
+.footer{
+    margin-top: 230.08px;
+}
+
+.good{
+    text-align: center;
+}
+
+.good button{
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+img{
+    width: 100%;
+     max-width: 600px;
+     max-height: 500px;
+     height: 400px;
+}
+
+.space{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    height: 370px;
+}
+
+
+.hello h2 {
+    margin: 15px 10px;
+    font-size: 20px;
+    color: #007BFF;
+}
+
+ .hello h3 {
+    margin: 15px 5px;
+    font-size: 20px;
+    color: #007BFF;
+}
+
+.color{
+    color: #3893f5;
+}
+.space ul {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #3893f5;
+    display: block;
+}
+
+.hello p {
+    padding: 0 15px;
+    font-size: 16px;
+    color: #555;
+}
+.light{
+    color:   #64afff;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.hello .hello1{
+    color: #0c4cab;
+    font-weight: bold;
+    padding: 0 15px;
+    font-size: 16px;
+}
+.hello .hello2{
+    padding: 0 15px;
+    font-size: 16px;
+    color: #555;
+}
+
+u{
+    color:#242323 ;
+}
+
+section a{
+    color: #007BFF;
+    text-decoration: none;
+}
+section a :hover{
+    color: #0c4cab;
+    
+}
+section a :visited{
+    color: #ffffff;
+}
+
+
+/* Design adaptatif */
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin: 5px 0;
+    }
+}
